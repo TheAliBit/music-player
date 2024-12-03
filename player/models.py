@@ -15,8 +15,8 @@ class Category(models.Model):
 class Music(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
-    image = models.ImageField(upload_to='uploads/images/')
-    music = models.FileField(upload_to='uploads/music')
+    image = models.ImageField(upload_to='images/')
+    music = models.FileField(upload_to='musics/')
 
     def __str__(self):
         return self.title

@@ -8,4 +8,5 @@ venv/
 !*/migrations/__init__.py
 *.log
 uploads/
+media/
 .venv/
